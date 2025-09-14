@@ -6,7 +6,7 @@ INSERT INTO departments (id, name, budget) VALUES
 (4, 'Finance', 400000.00),
 (5, 'Sales', 600000.00);
 
--- Insert employees (first without manager relationships)
+-- Insert employees
 INSERT INTO employees (id, name, email, department_id, date_of_joining, salary) VALUES 
 (1, 'John Smith', 'john.smith@company.com', 1, '2020-01-15', 120000.00),
 (2, 'Emily Johnson', 'emily.johnson@company.com', 1, '2020-03-20', 110000.00),
